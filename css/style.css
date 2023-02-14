@@ -9,3 +9,12 @@
 }
 */
 
+.ms_line_graph {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 15px;
+    height: 3px;
+    width: 20%;
+    background-color: white;
+    border-radius: 20px;
+}
