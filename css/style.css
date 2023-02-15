@@ -76,3 +76,24 @@
 .ms_img_container:hover .ms_effect {
     display: block;
 }
+
+.ms_form_border {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-left: 0px;
+    border-radius: 0;
+    margin-bottom: 10px;
+    
+}
+
+.ms_send_button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black
+}
+
+.ms_form_border::placeholder {
+    color: black;
+    font-weight: ;
+}
