@@ -15,9 +15,9 @@
 
 
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg ">
             <div class="container p-0">
-              <a class="navbar-brand p-0" href="#">LOGO</a>
+              <a class="navbar-brand p-0" href="#">START BOOTSTRAP</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -43,7 +43,7 @@
     <main>
 
         <section class="jumbotron ms_bg_green">
-            <div class="container-sm text-center mt-5">
+            <div class="container-sm text-center">
                 <div class="">
                     <div class="row">
                         <div class="col-6 offset-3 mt-4">
@@ -141,7 +141,7 @@
                     <i class="fa-solid fa-star text-dark fs-3"></i>
                     <span class="ms_line_graph bg-dark ms-1"></span>
                 </div>
-                <form action="" method="POST" enctype="multipart/form-data" id="form_id">
+                <form class="ms-5 me-5 mt-5" action="" method="POST" enctype="multipart/form-data" id="form_id">
                     <div class="form-group">
                         <input class="form-control" type="text" placeholder="Name">
                     </div>
@@ -155,11 +155,8 @@
                         <input type="text" name="career[message]" class="form-control" tabindex="4" placeholder="Message">
                     </div>
                     <div class="form-group">
-                        <input class="form-control" type="text" placeholder="Email">
+                        <button type="button" class="ms_send_button ms-2 mt-5">Send</button>
                     </div>
-                    <div class="form-group"></div>
-                    
-                    
                     
                     
                     
@@ -177,24 +174,45 @@
 
 
 
-    <footer>
-        <div class="container-sm text-center mt-5">
-            <div class="border border-primary">
-                <div class="row">
-                    <div class="bg-danger col-12 col-sm-4 py-5">Adress</div>
-                    <div class="bg-danger col-12 col-sm-4 p5-5">Social</div>
-                    <div class="bg-danger col-12 col-sm-4py-5">About freelancer</div>
+    <footer class="ms_footer_top_bg">
+
+
+        <div class="container-sm text-center mt-5 ">
+            <div class="">
+                
+                <div class="row align-items-center">
+                    <div class="text-white col-12 col-sm-4 py-5 ">
+                        <h4>LOCATION</h4>
+                        <P>2215 John Daniel Driver CLark, MO <br> 54243</P>
+                    </div>
+                    <div class="col-12 col-sm-4 p5-5"> 
+                        <h4 class="text-white">AROUND THE WEB</h4> 
+                        <a class="me-1 ms-1" href=""><i class="fa-brands fa-facebook-f ms_rounded_social_button"></i></a>
+                        <a class="me-1" href=""><i class="fa-brands fa-google-plus-g ms_rounded_social_button"></i></a>
+                        <a class="me-1" href=""><i class="fa-brands fa-twitter ms_rounded_social_button"></i></a>
+                        <a class="me-1" href=""><i class="fa-brands fa-linkedin-in ms_rounded_social_button"></i></a>
+                        
+
+                    </div>
+                    <div class="col-12 col-sm-4 py-5">
+                        <h4 class="text-white">ABOUT FREELANCER</h4>
+                        <p class="text-white">Freelance is a free to use, open source Bootstrap <br> theme created by <span class="ms_text_green">start bootstrap</span></p>
+                    </div>
                 </div>
                 
-                <div class="row">
-                    <div class="col-12 py-3">Copyrig1ht</div>
-                </div>
             </div>
 
 
         </div>
 
-
+        <div class="ms_footer_bot_bg">
+            <div class="container-sm">
+                <div class="row text-center">
+                    <p class="text-white col-12 py-3">Copyright <i class="fa-regular fa-copyright"></i> Your Website 2019</p>
+                </div>
+            </div> 
+        </div>
+            
 
     </footer>
 
